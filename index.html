@@ -2,29 +2,126 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AI Video Clipper</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background: #0f172a;
+            color: #f8fafc;
+            line-height: 1.6;
+        }
+
+        header {
+            padding: 60px 20px;
+            text-align: center;
+            background: linear-gradient(135deg, #0f172a, #1e293b);
+        }
+
+        h1 {
+            font-size: 42px;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            color: #94a3b8;
+            font-size: 18px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        section {
+            background: #1e293b;
+            border: 1px solid #334155;
+            border-radius: 12px;
+            padding: 24px;
+            margin-bottom: 24px;
+        }
+
+        h2 {
+            color: #38bdf8;
+            margin-top: 0;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        a {
+            color: #22c55e;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px 20px;
+            color: #94a3b8;
+            border-top: 1px solid #334155;
+        }
+    </style>
 </head>
 <body>
-    <h1>AI Video Clipper</h1>
 
-    <p>
-        AI Video Clipper is a desktop application that helps users create short videos from their own video files.
-    </p>
+    <header>
+        <h1>AI Video Clipper</h1>
+        <p class="subtitle">
+            A desktop application that helps users create short videos, subtitles, and TikTok-ready clips from their own video files.
+        </p>
+    </header>
 
-    <p>
-        The app can transcribe videos, detect relevant moments, generate clips, add subtitles, and prepare videos for upload to TikTok.
-    </p>
+    <main>
+        <section>
+            <h2>About AI Video Clipper</h2>
+            <p>
+                AI Video Clipper is a desktop application that helps users create short videos from their own video files.
+                The app can download or import a video, transcribe the audio, detect relevant moments, generate clips,
+                add subtitles, and prepare videos for upload to TikTok.
+            </p>
+        </section>
 
-    <p>
-        The user chooses the video file, reviews the generated clips, and decides when to upload content to TikTok.
-    </p>
+        <section>
+            <h2>How it works</h2>
+            <ul>
+                <li>The user selects or downloads a video.</li>
+                <li>The app transcribes the audio locally.</li>
+                <li>The app identifies relevant moments and generates short clips.</li>
+                <li>The app creates caption and hashtag text files.</li>
+                <li>The user can upload generated clips to TikTok as drafts using TikTok Content Posting API.</li>
+            </ul>
+        </section>
 
-    <p>
-        <a href="privacy-policy.html">Privacy Policy</a>
-    </p>
+        <section>
+            <h2>TikTok Integration</h2>
+            <p>
+                AI Video Clipper uses TikTok Login Kit so users can securely connect their own TikTok account.
+                The app uses the Content Posting API to upload user-selected or generated videos to TikTok as drafts.
+                Users remain in control and complete editing or posting inside TikTok.
+            </p>
+        </section>
 
-    <p>
-        <a href="terms-of-service.html">Terms of Service</a>
-    </p>
+        <section>
+            <h2>Legal</h2>
+            <p>
+                <a href="privacy-policy.html">Privacy Policy</a>
+            </p>
+            <p>
+                <a href="terms-of-service.html">Terms of Service</a>
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        AI Video Clipper
+    </footer>
+
 </body>
 </html>
